@@ -1,0 +1,30 @@
+.nav-item {
+    width: 50%;
+}
+
+.nav-link {
+    &.active {
+        background-color: white !important;
+        color:turquoise !important;
+    }
+
+    &:hover {
+        color:turquoise !important; 
+    }
+
+    margin: 0 auto;
+    width: 100%;
+    background-color: #edebeb !important;
+    color: #3b3b3b !important;
+    font-size: 20px !important;
+    
+}
+
+.content {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.tab-content {
+    padding-top: 20px;
+}
